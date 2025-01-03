@@ -41,6 +41,7 @@ jpackage \
   --input path/to/jar/directory \
   --main-jar HelloWorld.jar \
   --main-class HelloWorld \
+  --java-options "-Djava.awt.headless=true" \
   --icon path/to/icon.icns \
   --app-version 1.0
 ```
