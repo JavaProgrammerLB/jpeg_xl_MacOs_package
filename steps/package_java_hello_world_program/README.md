@@ -38,11 +38,11 @@ For example, to create a `.dmg` file:
 jpackage \
   --type dmg \
   --name HelloWorldApp \
-  --input path/to/jar/directory \
+  --input . \
   --main-jar HelloWorld.jar \
   --main-class HelloWorld \
   --java-options "-Djava.awt.headless=true" \
-  --icon path/to/icon.icns \
+  --icon imgs/icon.icns \
   --app-version 1.0
 ```
 
