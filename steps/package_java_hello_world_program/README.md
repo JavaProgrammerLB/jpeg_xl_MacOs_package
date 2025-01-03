@@ -43,7 +43,7 @@ jpackage \
   --main-class HelloWorld \
   --java-options "-Djava.awt.headless=true" \
   --icon imgs/icon.icns \
-  --app-version 1.0
+  --app-version 2.0
 ```
 
 - `--type dmg`: Specifies the output format as `.dmg`.
